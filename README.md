@@ -4,7 +4,7 @@ An AI-powered document summary assistant built with Next.js (App Router), TypeSc
 
 ---
 
-## Technical Approach (≤200 words)
+## Technical Approach - (WRITE UP)
 
 DocSummary AI leverages Google Gemini’s multimodal architecture (`gemini-2.5-flash`) to eliminate separate OCR engines and pipeline bottlenecks. When a document or image is uploaded, it is validated client-side for type and size (max 4.5MB for Vercel payload compatibility) and transmitted securely via standard Next.js App Router POST API handlers.
 
